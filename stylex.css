@@ -593,6 +593,9 @@ border-radius: 25px;
   .footer-container {
     flex-wrap: wrap;
   }
+  .first-section--link {
+    font-size: .8rem;
+  }
 }
 @media (max-width: 480px) {
   :root {
