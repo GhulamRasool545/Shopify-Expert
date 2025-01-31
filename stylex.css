@@ -537,7 +537,7 @@ border-radius: 25px;
 .image-banner-text--link:hover{
   text-decoration: underline;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   :root{
     font-size: 77%;
   }
