@@ -676,4 +676,7 @@ border-radius: 25px;
     width: 24px;
     height: 24px;
   }
+  .image-banner--text{
+    z-index: -1;
+  }
 }
