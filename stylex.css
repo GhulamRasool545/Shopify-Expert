@@ -625,6 +625,7 @@ border-radius: 25px;
   }
   .smart-flex {
     align-items: flex-start;
+    flex-direction: column;
   }
   .text-form-section--title-h2 {
     text-align: center;
