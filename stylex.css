@@ -566,7 +566,6 @@ border-radius: 25px;
     padding: 1rem 5rem;
   }
   .image-banner--text {
-    order: -1;
     padding-top: 5rem;
     padding-bottom: 3rem;
     padding-left: 2rem;
