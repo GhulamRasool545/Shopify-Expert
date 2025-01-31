@@ -585,6 +585,9 @@ border-radius: 25px;
   .group-image-width {
     margin-left: 0;
   }
+  .footer-container {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 480px) {
   :root {
