@@ -50,6 +50,10 @@ a {
   height: 100%;
   object-fit: cover;
 }
+.site-logo{
+    width: 184px;
+    height: 49px;
+}
 .contact-icon,
 .contact-number {
   display: inline-block;
@@ -667,4 +671,7 @@ border-radius: 25px;
   .email {
     width: 88%;
   }
+  .contact-icon{
+    width: 24px;
+    height: 24px;
 }
