@@ -543,7 +543,6 @@ border-radius: 25px;
   }
   .smart-flex {
     align-items: center;
-    flex-direction: column;
   }
   .section-content-texts {
     padding-left: 2rem;
