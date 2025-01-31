@@ -534,6 +534,9 @@ border-radius: 25px;
   text-decoration: underline;
 }
 @media (max-width: 1000px) {
+  :root{
+    font-size: 77%;
+  }
   .smart-flex {
     align-items: center;
   }
