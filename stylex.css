@@ -541,9 +541,6 @@ border-radius: 25px;
   :root{
     font-size: 77%;
   }
-  .smart-flex {
-    align-items: center;
-  }
   .section-content-texts {
     padding-left: 2rem;
   }
