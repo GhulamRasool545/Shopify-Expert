@@ -72,9 +72,6 @@ a {
   vertical-align: middle;
 }
 .first-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 1rem;
 }
 .first-section-heading-h2 {
