@@ -126,6 +126,9 @@ a {
   text-transform: capitalize;
   text-align: center;
 }
+.info-box-section--card--text{
+  color: black;
+}
 .second-section {
   display: flex;
   justify-content: space-between;
