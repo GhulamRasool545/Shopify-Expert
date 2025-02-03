@@ -50,10 +50,6 @@ a {
   height: 100%;
   object-fit: cover;
 }
-.site-logo{
-    width: 184px;
-    height: 49px;
-}
 .contact-icon,
 .contact-number {
   display: inline-block;
@@ -72,6 +68,9 @@ a {
   vertical-align: middle;
 }
 .first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 1rem;
 }
 .first-section-heading-h2 {
@@ -79,7 +78,6 @@ a {
   font-style: normal;
   font-weight: 800;
   color: white;
-  text-align: center;
 }
 .first-section-text {
   color: #fff;
@@ -90,19 +88,17 @@ a {
   width: 100%;
   max-width: 45rem;
   padding: 1rem 0;
-  margin: 0 auto;
 }
 .first-section--link {
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   color: white;
   border-radius: 25px;
   padding: 0.6rem 1rem;
 }
 .first-section-link {
   padding-top: 1rem;
-  text-align: center;
 }
 .first-section-paragraph span {
   position: relative;
@@ -387,7 +383,7 @@ a {
   content: "";
   position: absolute;
   width: 100%;
-  height: 98%;
+  height: 98.5%;
   background-color: #211b60;
   clip-path: polygon(1% 11%, 100% 0%, 100% 100%, 0% 100%);
   z-index: -1;
@@ -492,7 +488,6 @@ border-radius: 25px;
   justify-content: space-between;
   color: white;
   padding-top: 6rem;
-  padding-bottom: 3rem;
 }
 .footer-link-heading{
   font-weight: 800;
@@ -503,6 +498,7 @@ border-radius: 25px;
   margin-bottom: 1.4rem;
 }
 .footer-text{
+  width: 100%;
   max-width: 19rem;
 }
 .email {
@@ -514,7 +510,7 @@ border-radius: 25px;
   margin-top: 1rem;
 }
 .input-email {
-  width: 68%;
+  width: 70%;
   padding: 12px;
   border: none;
   outline: none;
@@ -540,9 +536,38 @@ border-radius: 25px;
 .image-banner-text--link:hover{
   text-decoration: underline;
 }
-@media (max-width: 1100px) {
+.footer-end{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.footer-right img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.social-icons{
+  font-size: 30px;
+  justify-content: left;
+  gap: 13px;
+  display: flex;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-right{
+  width: 12rem;
+}
+@media (max-width: 1000px) {
   :root{
-    font-size: 77%;
+    font-size: 80%;
+  }
+  .smart-flex {
+    flex-direction: column;
+    align-items: center;
   }
   .section-content-texts {
     padding-left: 2rem;
@@ -552,6 +577,8 @@ border-radius: 25px;
   }
   .fourth-section-heading {
     padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2.3rem;
   }
   .section-content--img {
     width: 100%;
@@ -570,6 +597,7 @@ border-radius: 25px;
     padding: 1rem 5rem;
   }
   .image-banner--text {
+    order: -1;
     padding-top: 5rem;
     padding-bottom: 3rem;
     padding-left: 2rem;
@@ -588,12 +616,6 @@ border-radius: 25px;
   }
   .group-image-width {
     margin-left: 0;
-  }
-  .footer-container {
-    flex-wrap: wrap;
-  }
-  .first-section--link {
-    font-size: .8rem;
   }
 }
 @media (max-width: 480px) {
@@ -628,7 +650,6 @@ border-radius: 25px;
   }
   .smart-flex {
     align-items: flex-start;
-    flex-direction: column;
   }
   .text-form-section--title-h2 {
     text-align: center;
@@ -669,17 +690,37 @@ border-radius: 25px;
     gap: 20px;
   }
   .link{
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2.2rem;
+  }
+  .footer-text{
+    font-size: 1.5rem;
+    max-width: 29rem;
   }
   .email {
     width: 88%;
   }
-  .contact-icon{
-    width: 24px;
-    height: 24px;
+  .contact-section-heading{
+    font-size: 2.3rem;
   }
-  .image-banner--text{
-    order: -1;
+  .contact-section::before {
+    clip-path: polygon(0% 87%, 0% 0%, 71.5% 1.5%, 71.5% 13%, 100.64% 8.6%, 100% 88.7%, 40.36% 100%, 40.36% 88.7%, 0% 87%);
+  }
+  .image--with--text-banner::before {
+    height: 98.6%;
+  }
+  .form {
+    padding: 4rem 2rem
+  }
+  .form::before {
+    clip-path: polygon(0% 0%, 0% 0%, 0% 95.3%, 18.8% 92.96%, 17.1% 100%, 100% 92.01%, 100% 5.33%, 105.2% 5.92%);
+  }
+  .footer-end{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .first-section-heading-h2 {
+    font-size: 3.125rem;
   }
 }
