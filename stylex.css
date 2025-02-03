@@ -561,6 +561,9 @@ border-radius: 25px;
 .footer-right{
   width: 12rem;
 }
+.site-logo{
+  width: 13rem;
+}
 @media (max-width: 1000px) {
   :root{
     font-size: 80%;
@@ -617,6 +620,14 @@ border-radius: 25px;
   .group-image-width {
     margin-left: 0;
   }
+  .header-container {
+    padding: 0 2rem;
+  }
+  .first-section-text{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.9rem;
+  }
 }
 @media (max-width: 480px) {
   :root {
@@ -665,6 +676,7 @@ border-radius: 25px;
   }
   .text-form-section--form {
     padding-top: 1rem;
+    width: 100%;
   }
   .image--with--text-heading--h2 {
     font-size: 3.2rem;
@@ -682,6 +694,7 @@ border-radius: 25px;
   }
   .header-container {
     height: 45px;
+    padding: 0 1.2rem;
   }
   .footer-container{
     flex-direction: column;
